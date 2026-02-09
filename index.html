@@ -1091,20 +1091,6 @@
                         link: "https://t.me/dragonballz0928",
                         createdAt: Date.now()
                     },
-                    {
-                        name: "Follow on Twitter",
-                        type: "Visit Link",
-                        reward: 50,
-                        link: "https://twitter.com",
-                        createdAt: Date.now()
-                    },
-                    {
-                        name: "Watch Tutorial Video",
-                        type: "Watch Video",
-                        reward: 75,
-                        link: "https://youtube.com",
-                        createdAt: Date.now()
-                    }
                 ];
                 
                 const tasksRef = db.ref('tasks');
@@ -1591,10 +1577,7 @@
             const mockTasks = [
                 { name: "Join Telegram Group 1", type: "Join Channel", reward: 100, link: "https://t.me/+EB80-ICe2MM4NWZl" },
                 { name: "Join Telegram Group 2", type: "Join Channel", reward: 100, link: "https://t.me/+oz-sddR4gORiN2Zl" },
-                { name: "Join Telegram Group 3", type: "Join Channel", reward: 100, link: "https://t.me/dragonballz0928" },
-                { name: "Follow on Twitter", type: "Visit Link", reward: 50, link: "https://twitter.com" },
-                { name: "Subscribe on YouTube", type: "Visit Link", reward: 75, link: "https://youtube.com" }
-            ];
+                   ];
             
             const allTasksContainer = document.getElementById('allTasks');
             const quickTasksContainer = document.getElementById('quickTasks');
